@@ -1,0 +1,12 @@
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\bin\Debug\UIHelper.dll
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\bin\Debug\UIHelper.pdb
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.csprojAssemblyReference.cache
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\OpenTextFileDialog.g.cs
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper_MarkupCompile.cache
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper_MarkupCompile.lref
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\OpenTextFileDialog.baml
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.g.resources
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.Properties.Resources.resources
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.csproj.GenerateResource.cache
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.dll
+C:\Users\songpanyong\Downloads\SoftwareDesignAndPractice-master\Lessons\UIHelper\obj\Debug\UIHelper.pdb
