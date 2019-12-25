@@ -1,0 +1,17 @@
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\MainWindow.g.cs
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\App.g.cs
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test_MarkupCompile.cache
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test_MarkupCompile.lref
+C:\Users\songpanyong\source\lesson\Test\bin\Debug\Test.exe.config
+C:\Users\songpanyong\source\lesson\Test\bin\Debug\Test.exe
+C:\Users\songpanyong\source\lesson\Test\bin\Debug\Test.pdb
+C:\Users\songpanyong\source\lesson\Test\bin\Debug\UIHelper.dll
+C:\Users\songpanyong\source\lesson\Test\bin\Debug\UIHelper.pdb
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\MainWindow.baml
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.g.resources
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.Properties.Resources.resources
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.csproj.GenerateResource.cache
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.exe
+C:\Users\songpanyong\source\lesson\Test\obj\Debug\Test.pdb

@@ -1,0 +1,34 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="555.469" Width="800">
+    <Window.Resources>
+        <RoutedCommand x:Key="OpenPic" />
+        <RoutedCommand x:Key="SendEmail" />
+
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="Open" Executed="OnOpen_Executed" />
+        <CommandBinding Command="{StaticResource OpenPic}" Executed="OnOpenPic_Executed" />
+        <CommandBinding Command="{StaticResource SendEmail}" Executed="OnSendEmail_Executed" CanExecute="OnSendEmail_CanExecuted" />
+    </Window.CommandBindings>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" Height="469">
+            <Label Content="请在下方输入有效email地址"/>
+            <TextBox Text="{Binding EmailPath,UpdateSourceTrigger=PropertyChanged}"  Width="800"/>
+            <Label Content="请在下方输入Emai正文"/>
+            <Button Content="打开文件" Command="Open"/>
+            <TextBox Text="{Binding FiltedText,UpdateSourceTrigger=PropertyChanged}" Width="800" Height="200" />
+            <Label Content="请在下方输入或选择附件图片"/>
+            <Button Content="打开图片" Command="{StaticResource OpenPic}"/>
+            <TextBox Text="{Binding PicFileName}" Width="800" Height="20" />
+            <Image  Width="722" Height="128" Source="{Binding PicFileName, UpdateSourceTrigger=PropertyChanged}"/>
+        </Menu>
+        <Button Content="发送" Width="50" Height="50"  Command="{StaticResource SendEmail}"/>
+    </DockPanel>
+</Window>
