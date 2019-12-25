@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -51,7 +51,6 @@ namespace Test
                 MessageBox.Show(ex.Message);
             }
         }
-
         private void OnOpenPic_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             OpenFileDialog aDlg = new OpenFileDialog()
@@ -62,6 +61,7 @@ namespace Test
             if (aDlg.ShowDialog() != true) return;
             _Model.PicFileName = aDlg.FileName;
             Console.WriteLine(_Model.PicFileName);
+
        }
 
         private void OnSendEmail_Executed(object sender, ExecutedRoutedEventArgs e)
@@ -72,8 +72,7 @@ namespace Test
         private void OnSendEmail_CanExecuted(object sender, CanExecuteRoutedEventArgs e)
         {
             Regex re = new Regex("^[a-z0-9A-Z]+[- | a-z0-9A-Z . _]+@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-z]{2,}$");
-          
-            e.CanExecute = _Model != null&&!string.IsNullOrEmpty(_Model.EmailPath) && re.IsMatch(_Model.EmailPath) && !string.IsNullOrEmpty(_Model.FiltedText)&&File.Exists(_Model.EmailPath);
+            e.CanExecute = _Model != null&&!string.IsNullOrEmpty(_Model.EmailPath) && re.IsMatch(_Model.EmailPath) && !string.IsNullOrEmpty(_Model.FiltedText)&&File.Exists(_Model.PicFileName);
         }
     }
 }
